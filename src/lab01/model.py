@@ -63,3 +63,9 @@ class Ticket:
             raise ValueError("Нельзя вернуть билет, который не был продан")
         self._status = "available"
         print(f"Билет {self._number} возвращён, теперь доступен.")
+
+    def display(self) -> str:
+        return str(self)
+
+    def score(self) -> float:
+        return self._price

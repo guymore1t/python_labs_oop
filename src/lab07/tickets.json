@@ -1,0 +1,60 @@
+[
+  {
+    "type": "ReturnTicket",
+    "route": "1",
+    "price": 2.0,
+    "number": "TICKET-2",
+    "status": "available",
+    "return_route": "1",
+    "return_price": 2.0,
+    "outbound_used": false,
+    "return_used": false
+  },
+  {
+    "type": "SingleTicket",
+    "route": "1",
+    "price": 12121212.0,
+    "number": "TICKET-4",
+    "status": "available",
+    "seat_number": 5,
+    "valid": true
+  },
+  {
+    "type": "SingleTicket",
+    "route": "2",
+    "price": 12.0,
+    "number": "TICKET-1",
+    "status": "available",
+    "seat_number": 12,
+    "valid": true
+  },
+  {
+    "type": "SingleTicket",
+    "route": "228",
+    "price": 1337.0,
+    "number": "TICKET-3",
+    "status": "available",
+    "seat_number": 67,
+    "valid": true
+  },
+  {
+    "type": "ReturnTicket",
+    "route": "45",
+    "price": 65.0,
+    "number": "TICKET-6",
+    "status": "available",
+    "return_route": "345",
+    "return_price": 353453.0,
+    "outbound_used": false,
+    "return_used": false
+  },
+  {
+    "type": "SingleTicket",
+    "route": "5",
+    "price": 767.0,
+    "number": "TICKET-5",
+    "status": "available",
+    "seat_number": 45,
+    "valid": true
+  }
+]

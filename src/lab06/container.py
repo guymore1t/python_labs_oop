@@ -97,6 +97,10 @@ class TypedCollection(Generic[T]):
                 return item
         return None
 
+    def sort_by(self, key_func: Callable[[T], object]) -> None:
+        self._items.sort(key=key_func)
+
+        
     def filter(self, predicate: Callable[[T], bool]) -> List[T]:
         return [item for item in self._items if predicate(item)]
 
